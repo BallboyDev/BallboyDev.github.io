@@ -41,7 +41,7 @@
         console.log('ballboy pathname >>', l.pathname)
         console.log('ballboy search >>', l.search)
         console.log('ballboy hash >>', l.hash)
-
+        l.replace(`${l.protocol}//${l.hostname}${l.pathname}`)
     </script>
 </head>
 
